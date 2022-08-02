@@ -5,7 +5,7 @@ import java.util.List;
  * @author: yangchao
  * @createTime: 2022-07-28  20:44
  * @description: 组合总和
- */https://github.com/YC0315/Daily-practice.git
+ */
 public class Test104 {
     /*
         给你一个 无重复元素 的整数数组 candidates 和一个目标整数 target ，找出 candidates 中可以使
@@ -23,12 +23,12 @@ public class Test104 {
         return res;
     }
     public void backtrack(int[] candidates, int target, int index) {
+        if(target < 0) return;
         // 结束条件
         if (target == 0) {
             res.add(new ArrayList<>(temp));
             return;
         }
-        if(target < 0) return;
         // 做选择,在这一个分支不能使用之前第一次使用的值[1,2,3,4]
         for (int i = index; i < candidates.length; i++) {
             temp.add(candidates[i]);

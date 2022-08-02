@@ -39,6 +39,7 @@ public class Test71 {
                 stack.push(curr);
                 curr = curr.left;
             }
+            // 取出中间节点
             curr = stack.pop();
             if(curr.right == null || prev == curr.right){
                 res.add(curr.val);
