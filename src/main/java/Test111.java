@@ -33,6 +33,7 @@ public class Test111 {
                 stack.push(root);
                 root = root.left;
             }else{
+                // 下面这些代码是在else里面的！！
                 root = stack.pop();
                 res.add(root.val);
                 root = root.right;
@@ -68,8 +69,7 @@ public class Test111 {
     }
 }
 // 手写一棵树
-/*
-class TreeNode{
+/*class TreeNode{
    int val;
    TreeNode left;
    TreeNode right;
@@ -86,5 +86,4 @@ class TreeNode{
         this.left = left;
         this.right = right;
     }
-}
-*/
+}*/
