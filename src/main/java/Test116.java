@@ -17,7 +17,6 @@ public class Test116 {
 // 懒汉式，延迟创建，线程不安全
 class Singleton13{
     private static Singleton13 intance = null;
-
     private Singleton13() {
     }
     public static Singleton13 getInstance(){

@@ -6,23 +6,6 @@
  */
 
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
 public class Test05 {
     public ListNode deleteDuplicates(ListNode head) {
         if (head.next == null) return head;

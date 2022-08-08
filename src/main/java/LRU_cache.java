@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * @author: yangchao
  * @createTime: 2022-07-17  19:03
- * @description:
+ * @description:  LRU缓存
  */
 public class LRU_cache {
     private int capcity;
@@ -82,6 +82,5 @@ public class LRU_cache {
             this.key = key;
             this.val = val;
         }
-
     }
 }
