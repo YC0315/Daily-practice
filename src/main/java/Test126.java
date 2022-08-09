@@ -10,7 +10,7 @@ import java.util.*;
  */
 public class Test126 {
     public int lengthOfLongestSubstring(String s) {
-        int left = 0, right = 0;  // 构建一个滑动窗口
+        int left = 0, right = 0;  // 构建一个滑动窗口，使用两个指针维护左右窗口端点
         int res = 0;
         // 维护当前最长不重复字符子串
         Set<Character> set = new HashSet<>();
