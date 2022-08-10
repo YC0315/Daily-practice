@@ -15,7 +15,9 @@ public class Test128 {
         Set<Character> set = new HashSet<>();
         int res = 0;
         int left = 0, right = 0;
+        // 使用滑动窗口，while循环的退出条件就是右边界到达字符串末端
         while (right < m) {
+            // 里面是if循环，外层是while循环
             if(!set.contains(s.charAt(right))){
                 set.add(s.charAt(right));
                 right++;
