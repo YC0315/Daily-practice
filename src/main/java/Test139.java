@@ -26,9 +26,11 @@ public class Test139 {
         int start = left;
         int end = right;
 //        int prior = nums[left];
+        // 随机选定基准
         int index = random.nextInt(right-left+1)+left;
         int prior = nums[index];
         nums[index] = nums[left];
+
         while (left < right) {
             // 逆序排，比基准大的放左边
             while (prior >= nums[right] && left < right) {

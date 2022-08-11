@@ -22,7 +22,7 @@ public class Test137 {
         while (position > 0) {
             // 每次for循环只找上一次最远的位置
             for (int n = 0; n < position; n++) {
-                if(n + nums[n] >= position){ // 当前元素的索引加上可以跳的最远距离是否大于等于右边界
+                if(n + nums[n] >= position){ // 当前元素的索引加上可以跳的最远距离是否大于等于右边界,始终找第一个这样的值
                     position = n;
                     step++;
                     break;  // 找到后退出

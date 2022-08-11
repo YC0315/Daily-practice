@@ -17,7 +17,5 @@ public class Test91 {
                 nums[j] = temp;
             }
         }
-
-
     }
 }
