@@ -1,7 +1,7 @@
 /**
  * @author: yangchao
  * @createTime: 2022-08-10  19:28
- * @description: 跳跃游戏
+ * @description: 跳跃游戏||
  * 输入: nums = [2,3,1,1,4]
  * 输出: 2
  * 解释: 跳到最后一个位置的最小跳跃数是 2。
