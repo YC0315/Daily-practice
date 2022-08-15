@@ -11,7 +11,6 @@ public class Test161 {
         ListNode res = new ListNode(0);
         ListNode pre = res;
         int temp = 0;
-        List<Integer> integers = Arrays.asList(1,2,13,4,15,6,17,8,19);
         while (l1 != null || l2 != null || temp != 0) { // 最后一次进位不要忘记
             // 对齐两个链表，多余部分补0
             int val1 = l1 != null ? l1.val : 0;
