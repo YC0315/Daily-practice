@@ -11,7 +11,8 @@ public class Test05 {
         if (head.next == null) return head;
 
         // 插入一个指针指向头节点，该指针的值为0
-        ListNode dummy = new ListNode(0, head);
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
 
         // 当前指针指向dummy节点
         ListNode cur = dummy;

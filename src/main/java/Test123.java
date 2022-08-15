@@ -20,7 +20,7 @@ public class Test123 {
     }
 }
 
-class ListNode {
+/*class ListNode {
     int val;
     ListNode next;
     ListNode() {
@@ -32,4 +32,4 @@ class ListNode {
         this.val = val;
         this.next = next;
     }
-}
+}*/
