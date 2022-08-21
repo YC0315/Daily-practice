@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -37,7 +36,7 @@ public class Test176 {
         // 去重
         int prev = -11;  // 标识当前元素和上一个元素是否相同，相同直接跳过，否则会有大量重复
         for (int i = 0; i < nums.length; i++) {
-            if(prev == nums[i] || vis[i] == 1) continue;
+            if(prev == nums[i] || vis[i] == 1) continue; // 当前元素没有用过，并且当前元素和上一个元素不相同
 
             // 做选择
             prev = nums[i];
