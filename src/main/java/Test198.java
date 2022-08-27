@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * @author: yangchao
  * @createTime: 2022-08-25  19:44
- * @description: TODO
+ * @description: 最大长方体面积
  */
 public class Test198 {
     public static void main(String args[]){
