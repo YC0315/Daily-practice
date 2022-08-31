@@ -15,7 +15,6 @@ public class Singleton {
         return instance;
     }
 }
-
 // 单例模式-懒汉式（线程不安全）
 class Singleton1 {
     // 不会提前创建实例

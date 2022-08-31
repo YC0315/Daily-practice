@@ -16,7 +16,7 @@ public class Test217 {
         if (root.left == null && root.right == null) return 0;
         int leftSize = root.left == null ? 0 : dfs(root.left) + 1;
         int rightSize = root.right == null ? 0 : dfs(root.right) + 1;
-        // 返回左子树，右子树，左子树+右子树的最大长度
+        // 返回左子树，右子树，左子树+右子树的最大长度，leftSize+rightSize不一定是过根节点的长度，也可能是左子树或者右子树上的长度
         res = Math.max(res, leftSize + rightSize);
         // 返回以该节点为根的最大的子树的深度
         return Math.max(leftSize, rightSize);
